@@ -27,10 +27,10 @@ An alternative to make it, would be obtaining a list of attributes, that way it 
 For example:
 * ["attr1", "attr2", (2), "4", 5]
 
-Pros:
+### Pros:
 String are dictionaries ("attr1", "attr2", "4") keys and integers' set are list indexes. This makes parser easier.
 Keys can have special characters included ".", "[", "]" and also can be integers.
 
-Cons:
+### Cons:
 Lost readability. It can be confused at first glas.
 
