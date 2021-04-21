@@ -17,7 +17,7 @@ def get_files_content(folder_content: List[str]) -> List:
     """Get the files content."""
 
     try:
-        content = t_map(lambda x: x.decoded_content, folder_content[:100])
+        content = t_map(lambda x: x.decoded_content, folder_content)
     except Exception as e:
         print(f"There was a problem getting the file content: {e}")
         raise
