@@ -22,5 +22,5 @@ An alternative to make it, would be obtaining a list of attributes, that way it 
 
 For example:
 * ["attr1", "attr2", 2]
-String are dictionary keys and integers are list indexes.
+String are dictionaries keys and integers are list indexes.
 
