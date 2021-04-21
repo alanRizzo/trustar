@@ -28,7 +28,7 @@ For example:
 * ["attr1", "attr2", (2), "4", 5]
 
 ### Pros:
-String are dictionaries ("attr1", "attr2", "4") keys and integers' set are list indexes. This makes parser easier.
+String and integers ("attr1", "attr2", "4") are dictionaries keys and integers' set are list indexes. This makes parser easier.
 Keys can have special characters included ".", "[", "]" and also can be integers.
 
 ### Cons:
