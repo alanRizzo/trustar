@@ -14,7 +14,7 @@ Install dependencies: `pip install -r requirements.txt`
 
 `python main.py --output filename`
 
- It is possible to pass other options to the CLI.
+ Other possible can be passed to the CLI.
 
 `python main.py --help`
 
