@@ -14,3 +14,13 @@ Install dependencies: `pip install -r requirements.txt`
 
 `python main.py > output.txt`
 
+## Question 5
+
+> Reflecting on the technical spec you received as part of the questionnaire, how would you change it to make it less error prone (you're being asked to parse a property chain... is this the best way of doing it?) .Feel free to propose alternatives, listing pros and cons
+
+An alternative to make it, would be obtaining a list of attributes, that way it avoids looking for a pattern that identifies what operation is necesary to perform.
+
+For example:
+* ["attr1", "attr2", 2]
+String are dictionary keys and integers are list indexes.
+
