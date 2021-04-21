@@ -10,9 +10,13 @@ Install dependencies: `pip install -r requirements.txt`
 
 `python main.py`
 
- If you want to redirects the output of the script to output.txt, run:
+ If you want to redirects the output of the script to filename.txt, run:
 
-`python main.py > output.txt`
+`python main.py --output filename`
+
+ It is possible to pass other options to the CLI.
+
+`python main.py --help`
 
 ## Question 5
 
